@@ -3,10 +3,10 @@ import { cn } from "@/lib/utils";
 import { IoCopyOutline } from "react-icons/io5";
 import { BackgroundGradientAnimation } from "./Gradientbg";
 import {GlobeDemo} from "./GridGlobe"
+import animationData from "@/data/confetti.json";
 import { useState } from "react";
 import Lottie from "react-lottie";
-// import {GridGlobe} from "./GridGlobe";
-import animationData from '@/data/Confetti.json';
+
 import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
